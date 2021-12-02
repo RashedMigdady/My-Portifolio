@@ -1,0 +1,53 @@
+.exp{
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.exper{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Consolas;
+    color: rgb(72, 50, 72);
+}
+.AllCards{
+    display: grid;
+    gap: 30px;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  
+}
+.lines{
+    margin-top: 5px;
+}
+.cards{
+    display: flex;
+    gap: 30px;
+}
+
+.onecard{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(240, 255, 255);
+    border-radius: 4px;
+    box-shadow: 28px 28px 50px #0D2750;
+    text-align: center;
+    display:grid;
+    /* border: #ff092e solid 1px; */
+}
+
+.iconsE{
+    font-size: 35px;
+    color: white;
+    background-color: #ff092e;
+    border-radius: 10px;
+    margin: auto;
+    padding: 5px;
+
+}
+
+.skill{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(72, 50, 72);
+
+}

@@ -1,0 +1,22 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.side{
+   background-color: rgb(255, 254, 254);
+   width: 300px;
+   /* height: 748px; */
+   /* position: fixed; */
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUFQOVlb_18S-N3dKkKgku6fhqEAD7GiHBYpABIp1EOYE_SBgYEyq0zkH-_Id4t2VLZyU&usqp=CAU");
+  
+  background-repeat: no-repeat; */
+}
+
+.App{
+   display: flex;
+   background-color: rgb(240, 255, 255);
+   height: 770px;
+   /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUFQOVlb_18S-N3dKkKgku6fhqEAD7GiHBYpABIp1EOYE_SBgYEyq0zkH-_Id4t2VLZyU&usqp=CAU");
+
+   background-repeat: no-repeat;} */
+}

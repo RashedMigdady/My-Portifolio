@@ -1,0 +1,38 @@
+.titleC {
+  padding-top: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(72, 50, 72);
+  font-family: Consolas;
+
+}
+
+.conatctDetails {
+  display: flex;
+  gap: 100px;
+}
+
+.DetailsC {
+  width: 300px;
+  height: 250px;
+  /* border: tomato solid 2px; */
+  text-align: center;
+  font-family: Consolas;
+}
+
+.iconsC {
+  font-size: 40px;
+  color: #ff092e;
+}
+
+.deta {
+  color: gray;
+  margin-top: 20px;
+}
+
+.titleDetails {
+  margin-top: 30px;
+  font-weight: bold;
+  font-family: Consolas;
+  font-size: 18px;
+}

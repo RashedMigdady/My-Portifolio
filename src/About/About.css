@@ -1,0 +1,97 @@
+.description{
+    display: grid;
+    gap: 50px;
+    align-items: center;
+    margin-top: 100px;
+    padding-left: 45px;
+}
+
+.about{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Consolas;
+    color: rgb(72, 50, 72);
+}
+
+.brif{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Consolas;
+   
+}
+
+.brif1{
+    display: inline;
+    font-family: Consolas;
+    color: #0A05FF;
+}
+
+.allInfo{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+    gap: 50px;
+}
+
+.info{
+    display: grid;
+    gap: 50px;
+    font-family: Consolas;
+}
+
+.text{
+    font-family: Consolas;
+    width: 700px;
+
+}
+
+.CV{
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 150px;
+    height: 40px;
+    border-radius: 100px;
+    color: white;
+    font-family: Georgia, Verdana, sans-serif ;
+    background-color: #ff092e;
+    cursor: pointer;
+    font-family: Consolas;
+    font-weight: bold;
+    border: #ff092e 2px solid;
+}
+
+.CV:hover{
+    background-color: white;
+    color: #ff092e;
+    border: 2px #ff092e solid;
+}
+
+.detail{
+    color: gray;
+    display: inline;
+}
+
+.line1{
+    background-color: #ff092e;
+    height: 7px;
+    width: 90px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.line2{
+    background-color: #ff092e;
+    height: 7px;
+    width: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.lines{
+    display: grid;
+    gap: 5px;
+}

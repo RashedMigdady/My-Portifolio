@@ -1,0 +1,66 @@
+.titleP{
+  padding-top: 80px;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(72, 50, 72);
+  font-family: Consolas;
+}
+
+.AllProjects{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.project{
+    width: 550px;
+    height: 530px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: grid;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+.imgProject{
+  width: 550px;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.Demo{
+  margin-left: 40%;
+  height: 35px;
+  width: 100px;
+  border: #ff092e 2px solid;
+  color: white;
+  background-color: #ff092e;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 100px;
+}
+
+.Demo:hover{
+  background-color: white;
+  color: #ff092e;
+  border: 2px #ff092e solid;
+}
+.DescriptionProject{
+  width: 525px;
+  margin-left: 12px;
+  font-family: Consolas;
+}
+
+.Technologies{
+  width: 525px;
+  margin-left: 12px;
+  font-family: Consolas;
+}
+
+.projectName{
+  margin-left: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Consolas;
+}
