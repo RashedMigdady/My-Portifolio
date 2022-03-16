@@ -19,4 +19,30 @@
    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUFQOVlb_18S-N3dKkKgku6fhqEAD7GiHBYpABIp1EOYE_SBgYEyq0zkH-_Id4t2VLZyU&usqp=CAU");
 
    background-repeat: no-repeat;} */
+   height:750px;
+   width: auto;
+}
+.switch{
+   display:block;
+   /* align-self: center; */
+   margin: auto;
+}
+.sidePhone{
+   display: none;
+}
+
+@media (max-width:411px) {
+   .App{
+      width: 360px;
+      height: auto;
+   }
+   .side{
+      display: none;
+   }
+   .sidePhone{
+      display: unset;
+   }
+   .switch{
+      display: none;
+   }
 }

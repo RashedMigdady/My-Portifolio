@@ -12,7 +12,7 @@
     display: grid;
     gap: 30px;
     margin-top: 50px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 100px;
 
   
 }
@@ -50,4 +50,17 @@
     font-weight: bold;
     color: rgb(72, 50, 72);
 
+}
+
+.imgIcons{
+    height: 100px;
+}
+
+.RowIcons{
+    display: flex;
+    width: 100%;
+    /* border: #ff092e 1px solid; */
+    gap: 100px;
+    margin: auto;
+    
 }

@@ -10,6 +10,24 @@
 .conatctDetails {
   display: flex;
   gap: 100px;
+
+}
+.contact{
+  display: grid;
+  gap: 150px;
+  margin-bottom: 50px;
+  margin-left: 25px;
+}
+@media (max-width:411px) {
+  .contact{
+    display: grid;
+    gap: 0px;
+  }
+  .conatctDetails{
+    display: grid;
+    margin-top: 100px;
+  }
+  
 }
 
 .DetailsC {

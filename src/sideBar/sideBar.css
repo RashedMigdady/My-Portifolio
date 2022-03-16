@@ -8,6 +8,17 @@
   margin-left: 20%;
   /* border-bottom-width: 10px; */
 }
+
+.sideBarComponent{
+  position: fixed;
+
+}
+
+@media (max-width:411px) {
+.sideBarComponent{
+  visibility: hidden;
+}  
+}
 .imgBar{
   width: 70px;
   height: 70px;
@@ -69,3 +80,24 @@
   color: rgb(4, 55, 242);
 } */
 
+/*Phone */
+.headerPhone{
+  width: 360px;
+  height: 80px;
+  background-color: #ff092e;
+  /* visibility: hidden; */
+  display: none;
+  gap: 100px;
+}
+
+@media (max-width:411px) {
+  .headerPhone{
+    /* visibility: visible; */
+    display: flex;
+  }
+
+  /*--------------------------------------------------*/
+  .sideBarComponent{
+    display: none;
+  }
+}

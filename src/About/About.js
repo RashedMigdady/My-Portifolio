@@ -4,12 +4,12 @@ import Typewriter from "typewriter-effect";
 
 export const About = () => {
   return (
-    <div>
+    <div className="AllAbout">
       <div className="description">
         <p className="about">
           About me
           <p className="lines">
-            <hr className="line1" />
+            <hr className="line1" style={{}} />
             <hr className="line2" />
           </p>
         </p>
@@ -48,7 +48,7 @@ export const About = () => {
         <div className="info">
           
           <p>
-            Website :<a href="https://practical-bose-155703.netlify.app/" title="My-Portfolio" style={{textDecoration:"none"}}><p className="detail"> Rashed-Portfolio</p></a>
+            Website :<a href="https://rashedmigdady.github.io/My-Portifolio/" title="My-Portfolio" style={{textDecoration:"none"}}><p className="detail"> Rashed-Portfolio</p></a>
           </p>
           <p>
             Degree :<p className="detail"> B.C Computer Science</p>
@@ -71,7 +71,7 @@ export const About = () => {
         </div>
       </div>
       <a
-        href="https://drive.google.com/file/d/1QqUSnzfcQ7jin6muud5R8qPw9o1cUnMd/view?usp=sharing"
+        href="https://drive.google.com/file/d/13m5L4Q0HoMmCM37qtNdU-61f0nHJc8s5/view?usp=sharing"
         target="_blank"
       >
         <button className="CV">Download CV</button>

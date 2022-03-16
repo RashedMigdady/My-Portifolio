@@ -19,6 +19,7 @@
     border-top-right-radius: 5px;
     display: grid;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-right: 10px;
 
 }
 
@@ -32,7 +33,7 @@
 .Demo{
   margin-left: 40%;
   height: 35px;
-  width: 100px;
+  width: 150px;
   border: #ff092e 2px solid;
   color: white;
   background-color: #ff092e;
@@ -52,14 +53,39 @@
   font-family: Consolas;
 }
 
+@media (max-width:411px) {
+  .AllProjects{
+    display: grid;
+  }
+  .project{
+    width: 340px;
+  }
+  .imgProject{
+    width: 340px;}
+  .project .DescriptionProject{
+    width: 320px;
+  }
+ .project .Technologies{
+    width: 320px;
+  }
+  .Demo{
+    margin-left: 35%;
+    height: 22px;
+    width: 100px;
+    font-size: 10px;
+  }
+}
+
 .Technologies{
   width: 525px;
-  margin-left: 12px;
+  /* margin-left: 12px; */
+  padding-left: 12px;
   font-family: Consolas;
 }
 
 .projectName{
-  margin-left: 12px;
+  /* margin-left: 12px; */
+  padding-left: 12px;
   font-weight: bold;
   font-size: 20px;
   font-family: Consolas;

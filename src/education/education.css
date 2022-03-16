@@ -1,13 +1,81 @@
 .AllCompo {
   margin-top: 40px;
   margin-left: 50px;
+  /* height: auto;
+  width: auto; */
+  display: grid;
+  gap: 100px;
+  margin-bottom: 100px;
+
 }
 
 .AllEdu {
   display: flex;
   width: 1100px;
   margin-top: 100px;
+
+  
 }
+
+@media (max-width:411px) {
+  .AllCompo{
+    /* border: black solid 1px; */
+    margin-top: 0;
+    margin-left: 35px;
+    /* width: 460px; */
+    gap: 30px;
+
+
+  }
+  .AllEdu{
+    display: grid;
+    width: 280px;
+    height: auto;
+    /* border: red 2px solid; */
+    align-self: center;
+    
+  }
+
+  .AllEdu .linke {
+    width: 280px;
+    /* border: olive 2px solid; */
+  }
+
+  
+ 
+  
+}
+
+@media (max-width:411px) {
+  .AllEdu .chain{
+    display: grid;
+    padding-left: 50%;
+    width: 50%;
+    
+
+  
+  }
+}
+
+@media (max-width:411px) {
+   .AllEdu .chain .lineChain{
+    width: 3px;
+    height: 63px;
+    
+    
+    
+  }
+
+  .AllEdu .chain .chainCircle{
+    
+    width: 14.5px;
+    height: 14.5px;
+    position: absolute;
+    margin-bottom: 55px;
+    margin-left: -5px;
+  }
+}
+
 
 .OneEdu {
   border: #ff092e 2px solid;
@@ -24,6 +92,7 @@
   height: 50px;
   border-radius: 5px;
   margin: auto;
+  
 }
 
 .chainCircle {
@@ -45,6 +114,7 @@
 .chain {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .linke{

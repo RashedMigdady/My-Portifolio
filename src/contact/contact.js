@@ -6,7 +6,7 @@ import {MdEmail} from 'react-icons/md';
 
 
 export const Contact = ()=>{
-    return(<div style={{display:"grid" , marginTop:"50px" , marginLeft:"25px"}}>
+    return(<div style={{display:"grid" , marginBottom:"50px" , marginLeft:"25px" ,gap:"150px"}} className="contact">
         <div>
             <p className="titleC">Contact<p style={{color:"#ff092e" , display:"initial" , marginLeft:"10px"}}>Me</p> <p className="lines">
           <hr className="line1" />

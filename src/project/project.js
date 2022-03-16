@@ -4,7 +4,7 @@ import image from "./images/MEGALODON.jpeg";
 import image1 from './images/KERO_BOOK.jpeg';
 export const Project = () => {
   return (
-    <div style={{ marginLeft: "25px" }}>
+    <div style={{ marginLeft: "10px" }}>
       <div>
         <p className="titleP">
           My
@@ -32,11 +32,11 @@ export const Project = () => {
           </p>
           <p className="Technologies">Technologies: Node.js, Express, MySQL, React, Google Auth, SMS Message ,Stripe, Heroku. </p>
           <a
-            href="https://compassionate-jones-03f564.netlify.app/"
+            href="https://rashedmigdady.github.io/Megalodon_v2.0/"
             target="_blank"
             style={{ textDecoration: "none", color: "white" }}
           >
-            <button className="Demo"> Show Demo</button>
+            <button className="Demo"> Show Web App</button>
           </a>
         </div>
         <div className="project">
@@ -52,11 +52,11 @@ export const Project = () => {
           </p>
           <p className="Technologies">Technologies: Node.js, Express, MongoDB, React, Google Auth, Stripe, Heroku. </p>
           <a
-            href="https://hardcore-hawking-757422.netlify.app/"
+            href="https://rashedmigdady.github.io/KERO-Book-v2.0/"
             target="_blank"
             style={{ textDecoration: "none", color: "white" }}
           >
-            <button className="Demo"> Show Demo</button>
+            <button className="Demo"> Show Web App</button>
           </a>
         </div>
       </div>

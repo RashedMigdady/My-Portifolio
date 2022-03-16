@@ -1,3 +1,7 @@
+.AllAbout{
+    margin-right: 400px;
+}
+
 .description{
     display: grid;
     gap: 50px;
@@ -43,8 +47,23 @@
     font-family: Consolas;
     width: 700px;
 
-}
 
+}
+@media (max-width:411px) {
+     .description .text{
+        width: 300px;
+    } 
+    
+    .allInfo{
+        display: grid;
+        /* margin-top: 50px;
+        margin-left: 40px;
+        gap: 50px; */
+    }
+    .AllAbout{
+        margin-right: 0px;
+    }
+}
 .CV{
     margin-left: 100px;
     margin-top: 40px;
