@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/My-Portifolio/static/css/main.4edc4845.chunk.css",
-    "main.js": "/My-Portifolio/static/js/main.d43bebc3.chunk.js",
-    "main.js.map": "/My-Portifolio/static/js/main.d43bebc3.chunk.js.map",
+    "main.js": "/My-Portifolio/static/js/main.96beb5e5.chunk.js",
+    "main.js.map": "/My-Portifolio/static/js/main.96beb5e5.chunk.js.map",
     "runtime-main.js": "/My-Portifolio/static/js/runtime-main.98adc8fc.js",
     "runtime-main.js.map": "/My-Portifolio/static/js/runtime-main.98adc8fc.js.map",
     "static/js/2.eaf9e312.chunk.js": "/My-Portifolio/static/js/2.eaf9e312.chunk.js",
@@ -11,12 +11,14 @@
     "static/css/main.4edc4845.chunk.css.map": "/My-Portifolio/static/css/main.4edc4845.chunk.css.map",
     "static/js/2.eaf9e312.chunk.js.LICENSE.txt": "/My-Portifolio/static/js/2.eaf9e312.chunk.js.LICENSE.txt",
     "static/media/KERO_BOOK.9d433071.jpeg": "/My-Portifolio/static/media/KERO_BOOK.9d433071.jpeg",
-    "static/media/MEGALODON.32596644.jpeg": "/My-Portifolio/static/media/MEGALODON.32596644.jpeg"
+    "static/media/MEGALODON.32596644.jpeg": "/My-Portifolio/static/media/MEGALODON.32596644.jpeg",
+    "static/media/kisspng-sass-logo.a2591e27.png": "/My-Portifolio/static/media/kisspng-sass-logo.a2591e27.png",
+    "static/media/react.3b646df5.png": "/My-Portifolio/static/media/react.3b646df5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.98adc8fc.js",
     "static/js/2.eaf9e312.chunk.js",
     "static/css/main.4edc4845.chunk.css",
-    "static/js/main.d43bebc3.chunk.js"
+    "static/js/main.96beb5e5.chunk.js"
   ]
 }
