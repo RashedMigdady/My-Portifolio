@@ -14,8 +14,8 @@ export const Contact = ()=>{
         </p></p>
         </div> 
         <div className="conatctDetails">
-            <div className="DetailsC"><FaPhoneSquareAlt className="iconsC"/><p className="titleDetails">Phone</p><p className="deta">+962777522486</p></div>
-            <div className="DetailsC"><ImLocation2 className="iconsC"/><p className="titleDetails">Location</p><p className="deta">Jordan - Amman</p></div>
+            <div className="DetailsC"><FaPhoneSquareAlt className="iconsC"/><p className="titleDetails">Phone</p><p className="deta">+61 455328779</p></div>
+            <div className="DetailsC"><ImLocation2 className="iconsC"/><p className="titleDetails">Location</p><p className="deta">NSW, Sydney</p></div>
             <div className="DetailsC"><MdEmail className="iconsC"/><p className="titleDetails">Email</p><p className="deta">migdadyrashed@gmail.com</p></div>
         </div>
     </div>)

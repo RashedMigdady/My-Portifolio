@@ -16,7 +16,7 @@ export const Home = () => {
         <div className="iconshome">
         <a href="http://www.linkedin.com/in/rashed-migdady" target="_blank" title="Linkedin"> <BsLinkedin className="iconhome"/> </a>
         <a href="https://github.com/RashedMigdady" target="_blank" title="Github">   <BsGithub className="iconhome"/></a>
-        <a href="https://drive.google.com/file/d/1QqUSnzfcQ7jin6muud5R8qPw9o1cUnMd/view?usp=sharing" target="_blank" title="CV">  <BiDownload className="iconhome" /></a>
+        <a href="https://app.flowcv.com/resume-feedback/b8D9ulyvf7hsBHT2uO4PM" target="_blank" title="CV">  <BiDownload className="iconhome" /></a>
         <CgWebsite className="iconhome" title="My Projects" onClick={()=>{history.push("/My-Projects")}}/>
 
         </div>

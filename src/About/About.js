@@ -54,16 +54,16 @@ export const About = () => {
             Degree :<p className="detail"> B.C Computer Science</p>
           </p>
           <p>
-            Country : <p className="detail">Jordan</p>
+            Country : <p className="detail">Australia, NSW</p>
           </p>{" "}
         </div>
         <div className="info">
           
           <p>
-            Email :<p className="detail"> rashedmeg231@gmail.com</p>
+            Email :<p className="detail"> migdadyrashed@gmail.com</p>
           </p>{" "}
           <p>
-            Phone : <p className="detail">+962777522486</p>
+            Phone : <p className="detail">+61 455328779</p>
           </p>{" "}
           <p>
             Status :<p className="detail"> Open to Work</p>
@@ -71,7 +71,7 @@ export const About = () => {
         </div>
       </div>
       <a
-        href="https://drive.google.com/file/d/13m5L4Q0HoMmCM37qtNdU-61f0nHJc8s5/view?usp=sharing"
+        href="https://app.flowcv.com/resume-feedback/b8D9ulyvf7hsBHT2uO4PM"
         target="_blank"
       >
         <button className="CV">Download CV</button>
